@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "id": "module-zbx-inspection-report",
+    "type": "module",
+    "name": "Inspection report",
+    "version": "1.0",
+    "namespace": "InspectionReport",
+    "author": "Rafael M. A. Leão Ereno - MALE",
+    "url": "https://www.linkedin.com/in/leaoereno/",
+    "description": "Generates a periodic health/inspection report of Zabbix 7.0 components (server, proxy and database). Compares dozens of metrics - caches, internal processes, NVPS, queue and OS resources - against reference thresholds and highlights issues with suggested actions. Detects and adapts to containerized (Docker) deployments, reading configuration from ZBX_* environment variables.",
+    "actions": {
+        "inspection.report": {
+            "class": "InspectionReport",
+            "view": "module.inspection.report"
+        },
+        "inspection.detail": {
+            "class": "InspectionDetail",
+            "view": "layout.inspection.detail"
+        }
+    }
+}
