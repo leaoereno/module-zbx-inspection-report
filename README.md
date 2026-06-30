@@ -4,7 +4,7 @@
 
 Módulo de frontend para **Zabbix 7.0 LTS** que gera um relatório de inspeção/saúde dos componentes do Zabbix (server, proxy e banco MySQL/MariaDB), comparando dezenas de métricas — caches, processos internos, NVPS, fila de pré-processamento, recursos de SO e replicação MySQL — contra limiares de referência e produzindo uma análise com diagnóstico e sugestão para cada item fora do esperado.
 
-> Fork com correções de segurança, de bugs, de robustez e suporte a server/proxy em Docker sobre o módulo original. Veja [Histórico de mudanças](#histórico-de-mudanças-deste-fork).
+> **Esta é uma versão fork.** É um fork do módulo *Inspection report* original, de autoria de **thinkc** (`thinkc@outlook.com`), com correções de segurança, de bugs, de robustez e suporte a server/proxy em Docker. Veja o [Histórico de mudanças](#histórico-de-mudanças-deste-fork).
 
 ## Instalação
 
@@ -104,5 +104,8 @@ MIT
 
 ## Créditos
 
+Este projeto é um **fork**. Os créditos pela criação original do módulo pertencem ao autor upstream; este fork apenas o mantém e estende.
+
+- **Autor original:** thinkc (`thinkc@outlook.com`) — módulo *Inspection report*
 - **Mantenedor do fork:** Rafael M. A. Leão Ereno (MALE)
 - **LinkedIn:** https://www.linkedin.com/in/leaoereno/
